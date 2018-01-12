@@ -28,6 +28,14 @@ For instance, if using H2 database:
 3. Create the migration scripts and place them into the migration folder
 4. Execute the migration java class
 
+via Maven:
+
+```bash
+mvn package exec:java -Dexec.mainClass=com.mycompany.flyway.FlywayMigration
+```
+
+or Just run the `com.mycompany.flyway.FlywayMigration.java` class from an IDE
+
 #### Flyway command line tool
 
 1. Download the Flyway command line tool
