@@ -8,6 +8,15 @@
     <name>flyway-demo</name>
     <url>http://maven.apache.org</url>
 
+    <dependencies>
+        <!-- Flyway core library - required for writing Java migrations -->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>5.0.5</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
