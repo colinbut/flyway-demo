@@ -86,3 +86,8 @@ Flyway Pro edition and above (Enterprise Edition) allows:
 1. ~~Repeatable Migrations~~
 2. Undo Migrations (_rollbacks_)
 3. Error Handling (_treating errors as warnings by skipping_)
+
+
+## Issues
+
+If you find any issues with this demo project, please raise a Github issue.
